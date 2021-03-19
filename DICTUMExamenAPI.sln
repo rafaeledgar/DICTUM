@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DICTUMExamenAPI", "DICTUMExamenAPI\DICTUMExamenAPI.csproj", "{99091CB1-B6F0-41D2-8607-2877C1F7D09E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.DataTresCapas", "3.DataTresCapas", "{F0F5CE65-F6DB-40FD-99DA-8E0C7478956F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Business", "2.Business", "{10CC6F55-1029-4D77-9972-003F413F0364}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.UI", "1.UI", "{8360D8C3-55BB-4C96-9D87-25D15FEAB26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTresCapas", "DataTresCapas\DataTresCapas.csproj", "{76337C6A-369A-421B-91D9-939939A8EE9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesTresCapas", "BussinesTresCapas\BussinesTresCapas.csproj", "{9C446CF7-D58B-4AE4-9BEF-3C289A5363DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityTresCapas", "EntityTresCapas\EntityTresCapas.csproj", "{A70C0F55-4B8F-4C28-964D-27BE15099E14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99091CB1-B6F0-41D2-8607-2877C1F7D09E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99091CB1-B6F0-41D2-8607-2877C1F7D09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99091CB1-B6F0-41D2-8607-2877C1F7D09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99091CB1-B6F0-41D2-8607-2877C1F7D09E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76337C6A-369A-421B-91D9-939939A8EE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76337C6A-369A-421B-91D9-939939A8EE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76337C6A-369A-421B-91D9-939939A8EE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76337C6A-369A-421B-91D9-939939A8EE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C446CF7-D58B-4AE4-9BEF-3C289A5363DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C446CF7-D58B-4AE4-9BEF-3C289A5363DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C446CF7-D58B-4AE4-9BEF-3C289A5363DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C446CF7-D58B-4AE4-9BEF-3C289A5363DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70C0F55-4B8F-4C28-964D-27BE15099E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70C0F55-4B8F-4C28-964D-27BE15099E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70C0F55-4B8F-4C28-964D-27BE15099E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70C0F55-4B8F-4C28-964D-27BE15099E14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99091CB1-B6F0-41D2-8607-2877C1F7D09E} = {8360D8C3-55BB-4C96-9D87-25D15FEAB26D}
+		{76337C6A-369A-421B-91D9-939939A8EE9F} = {F0F5CE65-F6DB-40FD-99DA-8E0C7478956F}
+		{9C446CF7-D58B-4AE4-9BEF-3C289A5363DD} = {10CC6F55-1029-4D77-9972-003F413F0364}
+		{A70C0F55-4B8F-4C28-964D-27BE15099E14} = {10CC6F55-1029-4D77-9972-003F413F0364}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F68000F9-6A16-4B54-A4B7-D6B4F7452B9A}
+	EndGlobalSection
+EndGlobal
